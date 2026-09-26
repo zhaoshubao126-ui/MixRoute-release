@@ -26,18 +26,7 @@ NVIDIA RTX 4090 GPU.
 
 ### 2. Data preparation
 
-The 12 benchmark datasets (BE, DE, FR, NP, PJM, Energy, Colbun, Rapel,
-Sdwpfm1, Sdwpfm2, Sdwpfh1, Sdwpfh2) are the covariate-forecasting data used by
-recent TSF-X papers such as DAG and GCGNet, and can be obtained from the public
-DAG release:
-
-- Datasets (Google Drive link quoted from the DAG repository):
-  <https://drive.google.com/file/d/1K2AvogpOpSz1PiQ53dPchzGv_PqlCWAK/view?usp=sharing>
-
-Place the 12 CSV files under `./dataset/forecasting/`. We do not redistribute the
-raw data in this anonymous package. The package ships a
-`dataset/forecasting/FORECAST_META.csv` index that pre-registers these 12 file
-names, so no additional setup is needed once the CSVs are in place.
+You can obtain the well pre-processed datasets from [Google Drive](https://drive.google.com/file/d/1K2AvogpOpSz1PiQ53dPchzGv_PqlCWAK/view?usp=sharing). Then place the 12 CSV files under the folder `./dataset/forecasting/`. The package already ships a `dataset/forecasting/FORECAST_META.csv` index, so no additional setup is needed once the CSVs are in place.
 
 ### 3. Train and evaluate model
 
