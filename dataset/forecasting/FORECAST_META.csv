@@ -1,0 +1,13 @@
+file_name,freq,if_univariate,size,length,trend,seasonal,stationary,transition,shifting,correlation
+BE.csv,hourly,FALSE,user,52416,,,,,,
+Colbun.csv,daily,FALSE,user,2958,,,,,,
+DE.csv,hourly,FALSE,user,52416,,,,,,
+Energy.csv,hourly,FALSE,user,13064,,,,,,
+FR.csv,hourly,FALSE,user,52416,,,,,,
+NP.csv,hourly,FALSE,user,52416,,,,,,
+PJM.csv,hourly,FALSE,user,52416,,,,,,
+Rapel.csv,daily,FALSE,user,3366,,,,,,
+Sdwpfh1.csv,hourly,FALSE,user,14641,,,,,,
+Sdwpfh2.csv,hourly,FALSE,user,14641,,,,,,
+Sdwpfm1.csv,other,FALSE,user,29281,,,,,,
+Sdwpfm2.csv,other,FALSE,user,29281,,,,,,
